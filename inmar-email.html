@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Responsive Template</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        background-color: #f5f5f5;
+        font-family: Arial, sans-serif;
+      }
+
+      .container {
+        width: 100%;
+        max-width: 800px;
+        margin: 0 auto;
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+      }
+
+      header,
+      main,
+      footer {
+        padding: 20px;
+        border-bottom: 1px solid #ccc;
+      }
+
+      @media only screen and (max-width: 600px) {
+        header,
+        main,
+        footer {
+          padding: 15px;
+        }
+      }
+
+      header {
+        background-color: lightgray;
+        color: white;
+        text-align: center;
+        position: relative;
+      }
+      header .logo {
+        max-width: 100px;
+        height: auto;
+      }
+
+      header img {
+        max-width: 100%;
+        height: auto;
+      }
+
+      h1 {
+        margin: 0;
+        padding: 10px;
+        font-size: 24px;
+        color: #303584;
+      }
+
+      p {
+        color: #03878c;
+      }
+
+      a {
+        text-decoration: none;
+        color: #fff;
+      }
+
+      .footnote {
+        color: #000;
+      }
+
+      main {
+        font-size: 16px;
+        line-height: 1.6;
+      }
+
+      .btn-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .button {
+        background-color: #303584;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease-in-out;
+      }
+
+      .button:hover {
+        background-color: #1c2952;
+      }
+
+      footer {
+        text-align: center;
+        font-size: 14px;
+        color: #555;
+        position: relative;
+      }
+
+      .social-icons {
+        position: absolute;
+        bottom: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+
+      .social-icons a {
+        color: #555;
+        margin: 0 5px;
+        font-size: 18px;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <header>
+        <img src="inmar-logo.svg" alt="Inmar Logo" class="logo" />
+        <h1>Welcome to Inmar Intelligence</h1>
+        <img src="inmar.jpg" alt="Inmar Logo" />
+      </header>
+      <main>
+        <p>
+          Inmar Intelligence is a leading data and technology company that
+          specializes in providing innovative solutions for businesses to
+          enhance their customer engagement and drive growth.
+        </p>
+        <p>
+          With its advanced analytics and digital promotions expertise, Inmar
+          Intelligence empowers organizations to make data-driven decisions and
+          optimize their marketing strategies.
+        </p>
+        <div class="btn-container">
+          <button class="button">
+            <a href="https://www.inmar.com/">Know More</a>
+          </button>
+        </div>
+      </main>
+      <footer>
+        <div class="social-icons">
+          <a href="https://www.facebook.com/InmarInc/" target="_blank"
+            ><i class="fab fa-facebook"></i
+          ></a>
+          <a href="https://www.instagram.com/inmarinc/" target="_blank"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/company/inmarintelligence/"
+            target="_blank"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+          <a href="https://twitter.com/inmarinc" target="_blank"
+            ><i class="fab fa-twitter"></i
+          ></a>
+          <a href="https://www.youtube.com/inmarinc" target="_blank"
+            ><i class="fab fa-youtube"></i
+          ></a>
+        </div>
+        <p class="footnote">
+          &copy; 2023 Inmar Intelligence. All rights reserved.
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>
